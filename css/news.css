@@ -1,0 +1,199 @@
+/*header background image*/
+#header #header_background{
+    background-image: url(../images/news.jpg)
+}
+
+/*start news post*/
+#news_post #news{
+    padding: 100px 0;
+}
+#news_post #news #news_content .news_first_image{
+    width: 100%
+}
+#news_post #news #news_content .news_first_image img{
+    max-width: 100%;
+}
+#news_post #news #news_content .news_post_content{
+    margin-top: 30px;
+}
+#news_post #news #news_content .first_post,
+#news_post #news #news_content .second_post,
+#news_post #news #news_content .third_post{
+    margin-bottom: 60px
+}
+#news_post #news #news_content .news_post_content .news_post_date .date_button{
+    width: 110px;
+    height: 35px;
+}
+#news_post #news #news_content .news_post_content .news_post_date .date_button,
+#news_post #news #news_content .pharagraph_read_more .post_read_more{
+    background: #32c69a;
+    text-align: center;
+}
+#news_post #news #news_content .news_post_content .news_post_date .date_button a{
+    line-height: 35px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 12px;
+}
+#news_post #news #news_content .news_post_content .news_post_date .date_button a,
+#news_post #news #news_content .pharagraph_read_more .post_read_more a{
+    color: #fff;
+    width: 100%;
+}
+#news_post #news #news_content .news_post_content .post_header h1 a,
+.left_side .latest_news .latest_news_content .latest_img_date .latest_news_date h4 a{
+    color: #404040;
+}
+#news_post #news #news_content .news_post_content .post_header h1 a{
+    font-weight: 600;
+    font-size: 30px;
+    
+}
+.right_side .categories #categores_content ul li ,
+#news_post #news #news_content .news_post_content .post_header h1 a{
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+}
+#news_post #news #news_content .news_post_content .post_header h1 a:hover,
+.left_side .latest_news .latest_news_content .latest_img_date .latest_news_date h4 a:hover,
+.left_side .latest_news .latest_news_content .latest_img_date .latest_news_date ul li a:hover,
+.left_side .latest_news .latest_news_content .latest_img_date .latest_news_date span{
+    color: #32c69a
+}
+#news_post #news #news_content .news_post_content .post_header ul li{
+    padding-right: 0;
+    padding-left: 0
+}
+#news_post #news #news_content .news_post_content .post_header ul li a,
+.left_side .latest_news .latest_news_content .latest_img_date .latest_news_date ul li a{
+    color: #838383
+}
+#news_post #news #news_content .news_post_content .post_header ul li::after{
+    content: "/";
+    color: #404040
+}
+#news_post #news #news_content .news_post_content .posts_content p{
+    line-height: 2;
+    color: #838383;
+    padding-top: 10px
+}
+#news_post #news #news_content .pharagraph_read_more .post_read_more {
+    width: 130px;
+    height: 50px;
+    margin-top: 40px
+}
+#news_post #news #news_content .pharagraph_read_more .post_read_more a{
+    font-size: 11px;
+    line-height: 50px;
+    letter-spacing: 1.8px;
+    text-transform: uppercase
+}
+/*start left side*/
+.right_side .latest_news .latest_news_content .latest_header h1,
+.right_side .categories #categories_header h1,
+.right_side #appointment #appointment_content h1,
+#contact #appointment_contact h1,
+#contact #get_in_touch h1,
+#contact_info .contact_disc h1,
+#contact_info .open_hour_header h3{
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 25px;
+    color: #404040
+} 
+.right_side .latest_news .latest_news_content .latest_img_date,
+.right_side .categories #categores_content ul li a,
+#contact_info .contact_disc ul li{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    -ms-flex-direction: row;
+}
+.right_side .latest_news .latest_news_content .images_date,
+.right_side .categories #categores_content{
+    margin-top: 35px
+}
+.right_side .latest_news .latest_news_content .latest_img_date .latest_news_date{
+    padding-left: 25px;
+    margin-bottom: 25px
+}
+.right_side .latest_news .latest_news_content .latest_img_date .latest_news_date h4{
+    font-size: 17px;
+    margin: 0 0 5px
+}
+.right_side .categories #categores_content,
+.right_side #appointment ,
+#contact #appointment_contact {
+    background: #e5ecf1;
+    padding: 40px 20px;
+}
+.right_side .categories #categores_content ul li{
+    width: 100%;
+    height: 44px;
+    text-align: center;
+    padding: 0 15px
+}
+.right_side .categories #categores_content ul li a{
+    color: #838383;
+    line-height: 44px;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+.right_side .categories #categores_content ul li:hover {
+    background: #fff
+}
+.right_side .categories #categores_content ul li:hover a{
+    color: #32c69a
+}
+.right_side .categories #categores_content ul li a span:last-child{
+    margin-left: auto
+}
+.right_side #appointment {
+    margin-top: 50px;
+}
+.right_side #appointment form,
+#contact #appointment_contact form{
+    padding: 40px 20px;
+    width: 100%;
+}
+.right_side #appointment form select,
+#contact #appointment_contact form select{
+    text-transform: capitalize
+}
+.right_side #appointment form input,
+#contact #appointment_contact form input,
+#contact #appointment_contact form select,
+.right_side #appointment form select{
+    color: #838383;
+    width: 100%;
+    height: 45px;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 25px;
+    padding: 0 15px
+}
+.right_side #appointment form #appointment_button,
+#contact #appointment_contact form #appointment_contact_button,
+.right_side #appointment h1,
+#contact #appointment_contact h1{
+    text-align: center;
+}
+.right_side #appointment form #appointment_button button,
+#contact #appointment_contact form #appointment_contact_button button{ 
+    width: 100%;
+    background: #32c69a;
+    height: 50px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    font-size: 11px;
+    letter-spacing: 2px;
+    border: none
+}
+/*end left side*/
+
+/*end news post*/

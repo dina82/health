@@ -1,0 +1,118 @@
+/*header background image*/
+#header #header_background{
+    background-image: url(../images/about.jpg);
+    background-attachment: initial;
+}
+.top_backgroung .cover_content .cover_button a{
+    font-weight: 600;
+    font-size: 35px;
+    text-transform: lowercase;
+    padding: 5px 20px;
+}
+.top_backgroung{
+    top: 20%
+}
+/*end header background image*/
+/*start a few words about us*/
+#few_word,
+#our_doctors{
+    padding: 70px 0
+}
+#few_word #few_word_header h1,
+#our_doctors #header_our_doctor h1{
+    font-weight: 600;
+    color: #404040;
+}
+#few_word #few_word_header span,
+#our_doctors #header_our_doctor p{
+    letter-spacing: 2px;
+    color: #838383;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase
+}
+#few_word_discription{
+    margin-top: 80px
+}
+#few_word_discription #few_word_content #first_paraghraph_health p{
+    margin: 25px 0 15px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #404040;
+}
+#few_word_discription #few_word_content #second_paraghraph_health p,
+#few_word_discription #few_word_center_paragraph #few_content_center p,
+#our_doctors #doctors_info .doctors .doctor_content .doctor_career{
+    line-height: 2;
+    color: #838383;
+}
+
+#few_word_discription  #few_word_third_paragraph {
+    right: 25px;
+    position: absolute;
+    transform: translateY(-15%);
+}
+ #few_content_button{
+    width: 120px;
+    height: 60px;
+    margin: auto;
+    margin-top: 45px;
+ }
+ #few_word_discription #button_callNow #few_content_button a{
+     padding: 20px 35px
+ }
+
+/*end a few words about us*/
+/*start section of our doctors*/
+
+#our_doctors #header_our_doctor h1{
+    text-transform: capitalize;
+}
+#our_doctors #doctors_info .doctors{
+    position: relative;
+    width: 100%;
+    border-bottom: 4px solid #32c69a;
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease ;
+    -o-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    margin-top: 80px;
+    margin-bottom: 50px
+}
+#our_doctors #doctors_info .doctors:hover{
+    box-shadow: 0px 38px 46px rgba(0,0,0,0.3);
+    background: #f4f8fb;
+}
+#our_doctors #doctors_info .doctors .doctors_img img{
+    width: 100%
+}
+#our_doctors #doctors_info .doctors .doctor_content{
+    padding: 25px 0 25px 25px
+}
+#our_doctors #doctors_info .doctors .doctor_content .doctor_name a{
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: #404040
+}
+#our_doctors #doctors_info .doctors .doctor_content .doctor_plus{
+    width: 35px;
+    height: 35px;
+    background:#32c69a;
+    bottom: 0;
+    text-align: center;
+    right: 0;
+    position: absolute;
+    opacity: 0;
+}
+#our_doctors #doctors_info .doctors:hover .doctor_content .doctor_plus{
+    opacity: 1;
+}
+#our_doctors #doctors_info .doctors .doctor_content .doctor_plus a{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 35px;
+}

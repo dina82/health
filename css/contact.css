@@ -1,0 +1,84 @@
+#header #header_background{
+    background-image: url(../images/contact.jpg)
+}
+#contact{
+    margin: 100px 0 0
+}
+#contact #get_in_touch form{
+    margin-top: 25px
+}
+#contact #get_in_touch form,
+#contact #get_in_touch form input,
+#contact #get_in_touch form textarea{
+    width: 100%
+}
+#contact #get_in_touch form input{
+    height: 50px;
+}
+#contact #get_in_touch form input,
+#contact #get_in_touch form textarea{
+    background: #e5ecf1; 
+    border: none;
+    padding-left:  40px ;
+    margin-bottom: 25px
+}
+#contact #get_in_touch form input:hover,
+#contact #get_in_touch form input:focus,
+#contact #get_in_touch form textarea:hover,
+#contact #get_in_touch form textarea:focus{
+    border:none;
+    border-left: 3px solid #32c69a
+}
+#contact #get_in_touch form textarea{
+    padding-top: 20px
+}
+#contact #get_in_touch form .button_send{
+    width: 200px;
+} 
+#contact #get_in_touch form .button_send button{
+    width: 100%;
+    height: 50px;
+    border: none;
+    background: #32c69a;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 11px
+}
+/*start contact info*/
+#contact_info{
+    width: 80%;
+    margin: auto;
+    padding: 100px 50px 60px;
+    box-shadow: 0 70px 76px rgba(4,4,4,.09);
+    margin-bottom: 200px
+}
+#contact_info .contact_disc ul,
+#contact_info #center_contact ul{
+    padding-top: 30px
+}
+#contact_info .contact_disc ul li ,
+#contact_info #center_contact ul li {
+    text-transform: capitalize;
+    margin-bottom: 15px
+}
+#contact_info .contact_disc ul li span:first-child,
+#contact_info #center_contact ul li span:first-child{
+    color: #404040
+}
+#contact_info .contact_disc ul li span:last-child,
+#contact_info #center_contact ul li span:last-child{
+    color: #838383
+}
+#contact_info .contact_disc ul li span:first-child::after,
+#contact_info #center_contact ul li span:first-child::after{
+    content: ":";
+    margin-right: 5px
+}
+#contact_info #center_contact{
+    padding-top: 55px
+}
+#contact_info .open_hour_header .open_hour{
+    margin-top: 38px;
+    text-transform: capitalize
+}
